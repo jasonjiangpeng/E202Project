@@ -56,7 +56,7 @@ public class NetUtils {
 
         if (cm == null)
             return false;
-        return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_WIFI;
+        return cm.getActiveNetworkInfo().getType() == ConnectivityManager.TYPE_DUMMY;
 
     }
 
