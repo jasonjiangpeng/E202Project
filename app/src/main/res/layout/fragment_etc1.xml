@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroudcolor">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/bg_icon"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/etcPage"
+            android:textSize="26dp" />
+    </FrameLayout>
+
+    <!-- <View
+         android:layout_width="match_parent"
+         android:layout_gravity="top"
+         android:layout_height="1px"
+         android:background="@color/gray_line"/>-->
+    <LinearLayout
+        android:id="@+id/lineerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/etcpadding1"
+        android:layout_marginLeft="@dimen/etcpadding1"
+        android:layout_marginRight="@dimen/etcpadding1"
+        android:layout_marginTop="135dp"
+        android:layout_weight="1"
+        android:background="@drawable/circulerangle"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+
+            android:paddingTop="12dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:src="@drawable/etc_message_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/etctag"
+                android:textColor="@color/colorwhite1"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/etcpadding1"
+            android:paddingTop="16dp">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pink_ring" />
+
+            <TextView
+                android:id="@+id/etclabel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/labelstate"
+                android:textColor="@color/etccolor3" />
+
+            <TextView
+                android:id="@+id/etccardstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/getData"
+                android:textColor="@color/etccolor3" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/etcpadding1">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/green_ring" />
+
+            <TextView
+                android:id="@+id/etclabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/cardType"
+                android:textColor="@color/etccolor3" />
+
+            <TextView
+                android:id="@+id/etccardtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/getData"
+                android:textColor="@color/etccolor3" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:paddingLeft="@dimen/etcpadding1">
+
+            <ImageView
+                android:id="@+id/etcimg3"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/purple_ring" />
+
+            <TextView
+                android:id="@+id/etclabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/cardMonny"
+                android:textColor="@color/etccolor3" />
+
+            <TextView
+                android:id="@+id/etccardaccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/getData"
+                android:textColor="@color/etccolor3" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="18dp"
+            android:background="@color/gray_line" />
+
+        <LinearLayout
+            android:id="@+id/etclayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/etcpadding1">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/green_ring" />
+
+            <TextView
+                android:id="@+id/etclabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/cardstatus"
+                android:textColor="@color/etccolor3" />
+
+            <TextView
+                android:id="@+id/etccardexist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="@string/getData"
+                android:textColor="@color/etccolor3" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

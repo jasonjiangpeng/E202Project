@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="huise">#efeeff</color>
+    <color name="hongse">#FF4081</color>
+    <color name="lanse">#3F51B5</color>
+    <color name="baise">#ffffff</color>
+      <color name="text_check_color">#F46859</color>
+    <color name="white">#ffffff</color>
+    <color name="localfilecolor1">#3c7df4</color>
+    <color name="localfilecolor2">#999999</color>
+    <color name="gray_line">#acaeb0</color>
+    <color name="gray_line1">#c0c0c0</color>
+    <color name="theme_color">#2b83e5</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="backgroudcolor2">#ebeef2</color>
+    <color name="backgroudcolor">#ebeef2</color>
+    <color name="setting_text_color">#82888d</color>
+    <color name="bar_Huibai">#ebeef2</color>
+    <color name="set_frame">#fafafa</color>
+    <color name="bar_font_Blank">#333333</color>
+    <color name="colorwhite1">#3c7df4</color>
+    <color name="colorwhite2">#ffffff</color>
+    <color name="etccolor1">#3c7df4</color>
+    <color name="etccolor2">#ffffff</color>
+    <color name="etccolor3">#666666</color>
+    <color name="blue3">#2696ff</color>
+
+</resources>

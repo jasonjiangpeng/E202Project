@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="jason">20dp</dimen>
+    <dimen name="aboutone">20dp</dimen>
+    <dimen name="abounttwo">15dp</dimen>
+    <dimen name="etcpadding1">12dp</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@color/baise"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+
+    style="@style/bottomnavigation"
+    android:text="@string/homepage"
+    android:drawableTop="@drawable/home_icon"
+    android:id="@+id/homePage"/>
+    <TextView
+       style="@style/bottomnavigation"
+        android:text="@string/etcPage"
+        android:drawableTop="@drawable/etc_icon"
+        android:id="@+id/etcPage"/>
+    <TextView
+        style="@style/bottomnavigation"
+        android:text="@string/messagePage"
+        android:drawableTop="@drawable/message_icon"
+        android:id="@+id/messagePage"/>
+    <TextView
+        style="@style/bottomnavigation"
+        android:text="@string/settingPage"
+        android:drawableTop="@drawable/set_icon"
+        android:id="@+id/settingPage"/>
+</LinearLayout>

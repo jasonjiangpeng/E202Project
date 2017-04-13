@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent"
+    android:background="@color/baise"
+    android:layout_height="45dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imgback"
+            android:onClick="imgbackall"
+            android:background="@drawable/back_black_icon"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/toolbartv"
+            android:text="@string/devicemanager"
+            android:textSize="@dimen/aboutone"
+            android:layout_height="45dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

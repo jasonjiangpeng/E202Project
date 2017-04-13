@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/huise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar_item"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/layout1"
+        android:layout_marginTop="2dp"
+        android:background="@color/baise"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sleepmodel"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+          android:id="@+id/img1"
+
+            android:background="@drawable/selected_icon"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:id="@+id/layout2"
+        android:layout_marginTop="1dp"
+        android:background="@color/baise"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/standardmodel"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/img2"
+            android:background="@drawable/selected_icon"/>
+    </LinearLayout>
+
+</LinearLayout>
